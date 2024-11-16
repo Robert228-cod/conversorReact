@@ -36,6 +36,13 @@ function App() {
     setResult(equivalent);
   }
 
+  const Reiniciar = () => {
+    setResult(0)
+    setValue(0)
+    setFrom(INITIAL_FROM)
+    setTo(INITIAL_TO)
+  }
+
   return (
     <>
       <h1>Conversor</h1>
@@ -84,6 +91,10 @@ function App() {
           onClick={convert}
         >Convertir</button>
         
+        <button
+          onClick={Reiniciar}
+        >  
+          Reiniciar</button>
         
       </div>
       
