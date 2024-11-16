@@ -1,0 +1,31 @@
+{
+    "kms": {
+        "label": "Kilómetros",
+        "mts": 1000,
+        "cms": 100000
+    },
+    "mts": {
+        "label": "Metros",
+        "cms":100
+    },
+    "cms": {
+        "label": "Centímetros",
+        "kms": 0.0001,
+        "mts": 0.01
+    },
+    "lit": {
+        "label": "Litros",
+        "cm3": 1000,
+        "mlit": 1000
+    },
+    "cm3": {
+        "label": "Centímetros cúbicos",
+        "lit": 0.001,
+        "mlit": 1
+    },
+    "mlit": {
+        "label": "mililitros",
+        "cm3": 1,
+        "lit": 0.001
+    }
+}
